@@ -14,7 +14,9 @@ Login test
     Click Element         id=welcome    
     Click Element         link=Logout
     log    Ceci est un test execute par %{username} dans %{os}
+    Log    Ceci est un simple test 
     Log   Fin de test  
+    
     
 *** Variables ***
 ${URL}  https://opensource-demo.orangehrmlive.com/index.php/auth/login
